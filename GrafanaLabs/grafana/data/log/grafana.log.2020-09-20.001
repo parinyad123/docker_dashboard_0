@@ -1,0 +1,15 @@
+t=2020-09-19T23:58:33+0700 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+t=2020-09-19T23:58:33+0700 lvl=info msg="Stopped Stream Manager"
+t=2020-09-19T23:59:02+0700 lvl=info msg="Starting Grafana" logger=server version=7.1.5 commit=9893b8c53d branch=HEAD compiled=2020-08-25T15:27:17+0700
+t=2020-09-19T23:59:02+0700 lvl=info msg="Config loaded from" logger=settings file="C:\\Program Files\\GrafanaLabs\\grafana/conf/defaults.ini"
+t=2020-09-19T23:59:02+0700 lvl=info msg="Path Home" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana"
+t=2020-09-19T23:59:02+0700 lvl=info msg="Path Data" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\data"
+t=2020-09-19T23:59:02+0700 lvl=info msg="Path Logs" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\log"
+t=2020-09-19T23:59:02+0700 lvl=info msg="Path Plugins" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\plugins"
+t=2020-09-19T23:59:02+0700 lvl=info msg="Path Provisioning" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\conf\\provisioning"
+t=2020-09-19T23:59:02+0700 lvl=info msg="App mode production" logger=settings
+t=2020-09-19T23:59:02+0700 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2020-09-19T23:59:03+0700 lvl=info msg="Starting DB migration" logger=migrator
+t=2020-09-19T23:59:03+0700 lvl=info msg="Starting plugin search" logger=plugins
+t=2020-09-19T23:59:03+0700 lvl=info msg="Registering plugin" logger=plugins name="Direct Input"
+t=2020-09-19T23:59:03+0700 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=

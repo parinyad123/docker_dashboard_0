@@ -1,0 +1,16 @@
+t=2020-09-20T01:00:48+0700 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=[::1]
+t=2020-09-20T01:00:48+0700 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/db/prometheus-stats status=404 remote_addr=[::1] time_ms=1 size=33 referer=http://localhost:3000/dashboard/db/prometheus-stats
+t=2020-09-20T18:14:21+0700 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/tsdb/query status=400 remote_addr=[::1] time_ms=6 size=364 referer="http://localhost:3000/d/daSZCbOGz/powheatiru?editPanel=2&orgId=1"
+t=2020-09-21T09:38:39+0700 lvl=info msg="Starting Grafana" logger=server version=7.1.5 commit=9893b8c53d branch=HEAD compiled=2020-08-25T15:27:17+0700
+t=2020-09-21T09:38:39+0700 lvl=info msg="Config loaded from" logger=settings file="C:\\Program Files\\GrafanaLabs\\grafana/conf/defaults.ini"
+t=2020-09-21T09:38:39+0700 lvl=info msg="Path Home" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana"
+t=2020-09-21T09:38:39+0700 lvl=info msg="Path Data" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\data"
+t=2020-09-21T09:38:39+0700 lvl=info msg="Path Logs" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\log"
+t=2020-09-21T09:38:39+0700 lvl=info msg="Path Plugins" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\data\\plugins"
+t=2020-09-21T09:38:39+0700 lvl=info msg="Path Provisioning" logger=settings path="C:\\Program Files\\GrafanaLabs\\grafana\\conf\\provisioning"
+t=2020-09-21T09:38:39+0700 lvl=info msg="App mode production" logger=settings
+t=2020-09-21T09:38:39+0700 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2020-09-21T09:38:39+0700 lvl=info msg="Starting DB migration" logger=migrator
+t=2020-09-21T09:38:39+0700 lvl=info msg="Starting plugin search" logger=plugins
+t=2020-09-21T09:38:40+0700 lvl=info msg="Registering plugin" logger=plugins name="Direct Input"
+t=2020-09-21T09:38:40+0700 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
